@@ -20,4 +20,8 @@ public String getNomEmploye(){
 public void setNomEmploye(String nomEmploye){
 	this.nomEmploye = nomEmploye;
 }
+// Ajout de méthode métier
+public void afficheInfo(){
+	system.out.println(this.nomEmploye+ " "+ this.prenomEmploye);
+}
 }
